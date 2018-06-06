@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/System Flowchart.png-116da018c20f7ae46a67f694d705ec78.stex"
+
+[deps]
+
+source_file="res://System Flowchart.png"
+source_md5="3639d3a7a5bbf148f234a67f8f549c2d"
+
+dest_files=[ "res://.import/System Flowchart.png-116da018c20f7ae46a67f694d705ec78.stex" ]
+dest_md5="a17e2cae0916d678f1ccbcf2dbec0914"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
