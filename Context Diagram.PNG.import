@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Context Diagram.PNG-2b9f83a0ac290e9d17ada18971c0d95e.stex"
+
+[deps]
+
+source_file="res://Context Diagram.PNG"
+source_md5="a35fadd304384550e280de174f42dfe7"
+
+dest_files=[ "res://.import/Context Diagram.PNG-2b9f83a0ac290e9d17ada18971c0d95e.stex" ]
+dest_md5="5d637cfc8705a44f14d5a2bb3e787568"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
