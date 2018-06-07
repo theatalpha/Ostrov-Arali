@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Internationale 8 bit.ogg-ba3dda36669f7a7d90566e862312caa8.oggstr"
+
+[deps]
+
+source_file="res://Music/Internationale 8 bit.ogg"
+source_md5="9af5330e367ee9c1532a315764382879"
+
+dest_files=[ "res://.import/Internationale 8 bit.ogg-ba3dda36669f7a7d90566e862312caa8.oggstr" ]
+dest_md5="144dc8c1375033e93b7aaaea3c53169a"
+
+[params]
+
+loop=true
+loop_offset=0
