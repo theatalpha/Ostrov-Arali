@@ -7,10 +7,10 @@ path="res://.import/new_game.png-6a142c55198900947f5e75c8e1bcfa50.stex"
 [deps]
 
 source_file="res://Graphics/Menu/new_game.png"
-source_md5="12b84b63f72c8d751bb01df99a0b0486"
+source_md5="b3dcf5a9dd537d73a7f463f58473fe79"
 
 dest_files=[ "res://.import/new_game.png-6a142c55198900947f5e75c8e1bcfa50.stex" ]
-dest_md5="d3a0fefba381946c4375d16a60fedd73"
+dest_md5="0849c1f57665c512612b2bb6a6063e7f"
 
 [params]
 
