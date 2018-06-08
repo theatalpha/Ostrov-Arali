@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Scripts/Title.gd" type="Script" id=1]
 [ext_resource path="res://Music/Internationale 8 bit.ogg" type="AudioStream" id=2]
@@ -9,10 +9,11 @@
 [ext_resource path="res://Graphics/Menu/new_game.png" type="Texture" id=7]
 [ext_resource path="res://Graphics/Menu/options.png" type="Texture" id=8]
 [ext_resource path="res://Graphics/Menu/exit.png" type="Texture" id=9]
-[ext_resource path="res://Graphics/Menu/ver.png" type="Texture" id=10]
-[ext_resource path="res://Graphics/Menu/select.png" type="Texture" id=11]
-[ext_resource path="res://Graphics/Menu/Sankara.png" type="Texture" id=12]
-[ext_resource path="res://Graphics/Menu/Che.png" type="Texture" id=13]
+[ext_resource path="res://Scripts/ExitGame.gd" type="Script" id=10]
+[ext_resource path="res://Graphics/Menu/ver.png" type="Texture" id=11]
+[ext_resource path="res://Graphics/Menu/select.png" type="Texture" id=12]
+[ext_resource path="res://Graphics/Menu/Sankara.png" type="Texture" id=13]
+[ext_resource path="res://Graphics/Menu/Che.png" type="Texture" id=14]
 
 [node name="Title Screen" type="Node" index="0"]
 
@@ -92,6 +93,7 @@ margin_right = 150.0
 margin_bottom = -150.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
+focus_mode = 2
 mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 4
@@ -118,6 +120,7 @@ margin_right = 160.0
 margin_bottom = 40.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
+focus_mode = 2
 mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
@@ -143,6 +146,7 @@ margin_right = 150.0
 margin_bottom = 230.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
+focus_mode = 2
 mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
@@ -168,6 +172,7 @@ margin_right = 160.0
 margin_bottom = 420.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
+focus_mode = 2
 mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
@@ -179,6 +184,7 @@ group = null
 texture_normal = ExtResource( 9 )
 expand = true
 stretch_mode = 5
+script = ExtResource( 10 )
 _sections_unfolded = [ "Margin" ]
 
 [node name="VerNum" type="TextureRect" parent="." index="8"]
@@ -197,7 +203,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 10 )
+texture = ExtResource( 11 )
 expand = true
 stretch_mode = 5
 _sections_unfolded = [ "Anchor", "Margin" ]
@@ -206,7 +212,7 @@ _sections_unfolded = [ "Anchor", "Margin" ]
 
 position = Vector2( 1.78253, 0 )
 scale = Vector2( 1.00686, 1 )
-texture = ExtResource( 11 )
+texture = ExtResource( 12 )
 
 [node name="TextureRect" type="TextureRect" parent="." index="10"]
 
@@ -224,7 +230,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 12 )
+texture = ExtResource( 13 )
 expand = true
 stretch_mode = 6
 _sections_unfolded = [ "Margin" ]
@@ -245,7 +251,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 13 )
+texture = ExtResource( 14 )
 expand = true
 stretch_mode = 6
 _sections_unfolded = [ "Grow Direction", "Margin" ]
@@ -257,5 +263,7 @@ _sections_unfolded = [ "Grow Direction", "Margin" ]
 [connection signal="mouse_entered" from="Options" to="." method="_on_Options_mouse_entered"]
 
 [connection signal="mouse_entered" from="ExitGame" to="." method="_on_ExitGame_mouse_entered"]
+
+[connection signal="pressed" from="ExitGame" to="ExitGame" method="_on_ExitGame_pressed"]
 
 
