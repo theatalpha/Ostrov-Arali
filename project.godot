@@ -13,7 +13,7 @@ config_version=3
 config/name="Ostrov Arali"
 run/main_scene="res://Scenes/Title Screen.tscn"
 boot_splash/image="res://Graphics/Menu/loading_screen.png"
-config/icon="res://HaS.png"
+config/icon="res://HaG.png"
 
 [display]
 
