@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/menu_background.png-8cd1b341a26a28012615a550008320c9.stex"
+path="res://.import/resolution.png-80cbd0fb21b2c0c649198d8f349c26ce.stex"
 
 [deps]
 
-source_file="res://Graphics/Menu/menu_background.png"
-source_md5="b2a876f869065b6758dc5097c992eb43"
+source_file="res://Graphics/Menu/resolution.png"
+source_md5="99a4fc5267ddcacea3c03c66492ab48e"
 
-dest_files=[ "res://.import/menu_background.png-8cd1b341a26a28012615a550008320c9.stex" ]
-dest_md5="b0eef737fa1df753ab36abe2384acbec"
+dest_files=[ "res://.import/resolution.png-80cbd0fb21b2c0c649198d8f349c26ce.stex" ]
+dest_md5="7e551dadc5477e1d2b4b49970f78a4a9"
 
 [params]
 
