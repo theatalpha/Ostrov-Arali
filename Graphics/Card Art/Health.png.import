@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Health.png-0adc55a0fc11af87a3fe8edee52aa3a7.stex"
+path="res://.import/Health.png-995225c3d084a7ab7197af9e889af026.stex"
 
 [deps]
 
-source_file="res://Cards/Health.png"
+source_file="res://Graphics/Card Art/Health.png"
 source_md5="481bf0b53e454d8c4bb0b3207c6b986b"
 
-dest_files=[ "res://.import/Health.png-0adc55a0fc11af87a3fe8edee52aa3a7.stex" ]
+dest_files=[ "res://.import/Health.png-995225c3d084a7ab7197af9e889af026.stex" ]
 dest_md5="4e6453eb2dad91f486c047fcbd307ab7"
 
 [params]

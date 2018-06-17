@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Attack.png-b4d6ef8d60ec70d568077b2f523e0b22.stex"
+path="res://.import/Attack.png-d047749199108e8246d9c2d8fd489ec3.stex"
 
 [deps]
 
-source_file="res://Cards/Attack.png"
+source_file="res://Graphics/Card Art/Attack.png"
 source_md5="f5896a69c3847cfcb401806fad11a130"
 
-dest_files=[ "res://.import/Attack.png-b4d6ef8d60ec70d568077b2f523e0b22.stex" ]
+dest_files=[ "res://.import/Attack.png-d047749199108e8246d9c2d8fd489ec3.stex" ]
 dest_md5="f3c1eb9ecb486bec82b8f8b16e99d6fd"
 
 [params]

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Trotsky.jpg-37ca264fe97d342df0b74fca7aa21e39.stex"
+path="res://.import/paris-commune.png-a7969e4be1fe73f93dca904a02b3a105.stex"
 
 [deps]
 
-source_file="res://Graphics/Card Art/Trotsky.jpg"
-source_md5="007bb952b6b16331813b2494bc54cc9c"
+source_file="res://Graphics/Menu/paris-commune.png"
+source_md5="730aa90b5bcb9e628d3d090ff4ab2828"
 
-dest_files=[ "res://.import/Trotsky.jpg-37ca264fe97d342df0b74fca7aa21e39.stex" ]
-dest_md5="ad1c6f739cc190009aa5edfd03c4132f"
+dest_files=[ "res://.import/paris-commune.png-a7969e4be1fe73f93dca904a02b3a105.stex" ]
+dest_md5="856aa26c11df2ae995ebfd6a3740d163"
 
 [params]
 

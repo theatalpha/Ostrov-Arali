@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Che.jpg-b2dd4c5edeab442e92586de633ee8c0a.stex"
+path="res://.import/Che.jpg-240b9b9c9b496d3725013995bbcb406e.stex"
 
 [deps]
 
-source_file="res://Game Art/Che.jpg"
+source_file="res://Graphics/Card Art/Che.jpg"
 source_md5="0e13d3b0195c85c1a2d6e958b898d31f"
 
-dest_files=[ "res://.import/Che.jpg-b2dd4c5edeab442e92586de633ee8c0a.stex" ]
+dest_files=[ "res://.import/Che.jpg-240b9b9c9b496d3725013995bbcb406e.stex" ]
 dest_md5="5b4e9da4b4aac9f9913da860f94d1344"
 
 [params]
