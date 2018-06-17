@@ -6,6 +6,8 @@ func _ready():
 	track1 =  get_node("Internationale")
 	set_process_input(true)
 	get_node("Select").hide()
+	get_node("TextureRect").hide()
+	get_node("TextureRect2").hide()
 	track1.play()
 
 func _on_Continue_mouse_entered():
