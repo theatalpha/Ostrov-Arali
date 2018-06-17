@@ -1,19 +1,24 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Scripts/Title.gd" type="Script" id=1]
 [ext_resource path="res://Music/Internationale 8 bit.ogg" type="AudioStream" id=2]
 [ext_resource path="res://Graphics/Menu/menu_background.png" type="Texture" id=3]
-[ext_resource path="res://Graphics/Menu/title.png" type="Texture" id=4]
-[ext_resource path="res://Graphics/Menu/continue.png" type="Texture" id=5]
-[ext_resource path="res://Scripts/Continue.gd" type="Script" id=6]
-[ext_resource path="res://Graphics/Menu/new_game.png" type="Texture" id=7]
-[ext_resource path="res://Graphics/Menu/options.png" type="Texture" id=8]
-[ext_resource path="res://Graphics/Menu/exit.png" type="Texture" id=9]
-[ext_resource path="res://Scripts/ExitGame.gd" type="Script" id=10]
-[ext_resource path="res://Graphics/Menu/ver.png" type="Texture" id=11]
-[ext_resource path="res://Graphics/Menu/select.png" type="Texture" id=12]
-[ext_resource path="res://Graphics/Menu/Sankara.png" type="Texture" id=13]
-[ext_resource path="res://Graphics/Menu/Che.png" type="Texture" id=14]
+[ext_resource path="res://Graphics/Menu/fsoff.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/Menu/fson.png" type="Texture" id=5]
+[ext_resource path="res://Graphics/Menu/fullscreen.png" type="Texture" id=6]
+[ext_resource path="res://Graphics/Menu/title.png" type="Texture" id=7]
+[ext_resource path="res://Graphics/Menu/continue.png" type="Texture" id=8]
+[ext_resource path="res://Scripts/Continue.gd" type="Script" id=9]
+[ext_resource path="res://Graphics/Menu/new_game.png" type="Texture" id=10]
+[ext_resource path="res://Graphics/Menu/options.png" type="Texture" id=11]
+[ext_resource path="res://Graphics/Menu/exit.png" type="Texture" id=12]
+[ext_resource path="res://Scripts/ExitGame.gd" type="Script" id=13]
+[ext_resource path="res://Graphics/Menu/back.png" type="Texture" id=14]
+[ext_resource path="res://Graphics/Menu/ver.png" type="Texture" id=15]
+[ext_resource path="res://Graphics/Menu/select.png" type="Texture" id=16]
+[ext_resource path="res://Graphics/Menu/Sankara.png" type="Texture" id=17]
+[ext_resource path="res://Graphics/Menu/Che.png" type="Texture" id=18]
+[ext_resource path="res://Graphics/Menu/mselect.png" type="Texture" id=19]
 
 [node name="Title Screen" type="Node" index="0"]
 
@@ -59,8 +64,40 @@ size_flags_vertical = 1
 texture = ExtResource( 3 )
 expand = true
 stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Hint" ]
 
-[node name="Title" type="TextureRect" parent="." index="3"]
+[node name="MFull" type="CheckButton" parent="." index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 810.0
+margin_top = 290.0
+margin_right = 1300.0
+margin_bottom = 398.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+size_flags_stretch_ratio = 0.0
+custom_icons/off = ExtResource( 4 )
+custom_icons/on = ExtResource( 5 )
+toggle_mode = true
+pressed = true
+enabled_focus_mode = 2
+shortcut = null
+group = null
+icon = ExtResource( 6 )
+flat = true
+clip_text = true
+align = 0
+_sections_unfolded = [ "Grow Direction", "Size Flags", "custom_icons" ]
+
+[node name="Title" type="TextureRect" parent="." index="4"]
 
 anchor_left = 0.5
 anchor_top = 0.0
@@ -76,12 +113,12 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 4 )
+texture = ExtResource( 7 )
 expand = true
 stretch_mode = 6
 _sections_unfolded = [ "Margin", "Size Flags" ]
 
-[node name="Continue" type="TextureButton" parent="." index="4"]
+[node name="Continue" type="TextureButton" parent="." index="5"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -102,13 +139,13 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 5 )
+texture_normal = ExtResource( 8 )
 expand = true
 stretch_mode = 5
-script = ExtResource( 6 )
+script = ExtResource( 9 )
 _sections_unfolded = [ "Anchor", "Margin", "Size Flags", "Textures" ]
 
-[node name="NewGame" type="TextureButton" parent="." index="5"]
+[node name="NewGame" type="TextureButton" parent="." index="6"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -129,12 +166,12 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 7 )
+texture_normal = ExtResource( 10 )
 expand = true
 stretch_mode = 5
 _sections_unfolded = [ "Anchor", "Margin", "Size Flags", "Textures" ]
 
-[node name="Options" type="TextureButton" parent="." index="6"]
+[node name="Options" type="TextureButton" parent="." index="7"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -155,12 +192,12 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 8 )
+texture_normal = ExtResource( 11 )
 expand = true
 stretch_mode = 5
 _sections_unfolded = [ "Margin", "Textures" ]
 
-[node name="ExitGame" type="TextureButton" parent="." index="7"]
+[node name="ExitGame" type="TextureButton" parent="." index="8"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -181,13 +218,40 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 9 )
+texture_normal = ExtResource( 12 )
 expand = true
 stretch_mode = 5
-script = ExtResource( 10 )
-_sections_unfolded = [ "Margin" ]
+script = ExtResource( 13 )
+_sections_unfolded = [ "Anchor", "Margin" ]
 
-[node name="VerNum" type="TextureRect" parent="." index="8"]
+[node name="MBack" type="TextureButton" parent="." index="9"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -160.0
+margin_top = 330.0
+margin_right = 160.0
+margin_bottom = 420.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 14 )
+expand = true
+stretch_mode = 5
+script = ExtResource( 13 )
+_sections_unfolded = [ "Anchor", "Margin", "Textures" ]
+
+[node name="VerNum" type="TextureRect" parent="." index="10"]
 
 anchor_left = 0.0
 anchor_top = 1.0
@@ -203,19 +267,20 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 11 )
+texture = ExtResource( 15 )
 expand = true
 stretch_mode = 5
 _sections_unfolded = [ "Anchor", "Margin" ]
 
-[node name="Select" type="Sprite" parent="." index="9"]
+[node name="Select" type="Sprite" parent="." index="11"]
 
 position = Vector2( 1.78253, 0 )
 scale = Vector2( 1.00686, 1 )
-texture = ExtResource( 12 )
+texture = ExtResource( 16 )
 
-[node name="TextureRect" type="TextureRect" parent="." index="10"]
+[node name="TextureRect" type="TextureRect" parent="." index="12"]
 
+visible = false
 anchor_left = 0.0
 anchor_top = 0.5
 anchor_right = 0.0
@@ -230,13 +295,14 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 13 )
+texture = ExtResource( 17 )
 expand = true
 stretch_mode = 6
 _sections_unfolded = [ "Margin" ]
 
-[node name="TextureRect2" type="TextureRect" parent="." index="11"]
+[node name="TextureRect2" type="TextureRect" parent="." index="13"]
 
+visible = false
 anchor_left = 1.0
 anchor_top = 0.5
 anchor_right = 1.0
@@ -251,10 +317,18 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 14 )
+texture = ExtResource( 18 )
 expand = true
 stretch_mode = 6
 _sections_unfolded = [ "Grow Direction", "Margin" ]
+
+[node name="MSelect" type="Sprite" parent="." index="14"]
+
+texture = ExtResource( 19 )
+
+[connection signal="mouse_entered" from="MFull" to="." method="_on_MFull_mouse_entered"]
+
+[connection signal="pressed" from="MFull" to="." method="_on_MFull_pressed"]
 
 [connection signal="mouse_entered" from="Continue" to="." method="_on_Continue_mouse_entered"]
 
@@ -262,8 +336,14 @@ _sections_unfolded = [ "Grow Direction", "Margin" ]
 
 [connection signal="mouse_entered" from="Options" to="." method="_on_Options_mouse_entered"]
 
+[connection signal="pressed" from="Options" to="." method="_on_Options_pressed"]
+
 [connection signal="mouse_entered" from="ExitGame" to="." method="_on_ExitGame_mouse_entered"]
 
 [connection signal="pressed" from="ExitGame" to="ExitGame" method="_on_ExitGame_pressed"]
+
+[connection signal="mouse_entered" from="MBack" to="." method="_on_ExitGame_mouse_entered"]
+
+[connection signal="pressed" from="MBack" to="." method="_on_MBack_pressed"]
 
 
