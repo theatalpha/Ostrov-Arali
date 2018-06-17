@@ -7,10 +7,10 @@ path="res://.import/continue.png-1434dae48ba6d0c59991129a4e7f832e.stex"
 [deps]
 
 source_file="res://Graphics/Menu/continue.png"
-source_md5="b62273c48c990d48966e14004adcabb6"
+source_md5="f6f8aebd4e5e65f622b3cd340fe3a974"
 
 dest_files=[ "res://.import/continue.png-1434dae48ba6d0c59991129a4e7f832e.stex" ]
-dest_md5="c72c29132aabe6585ccba08d70072e5a"
+dest_md5="f051d46b03336e444bd6e81fe2123c3e"
 
 [params]
 

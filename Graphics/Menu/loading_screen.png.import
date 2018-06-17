@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Trotsky.jpg-37ca264fe97d342df0b74fca7aa21e39.stex"
+path="res://.import/loading_screen.png-14393d35bcf03d0a24aa1b756803ed9b.stex"
 
 [deps]
 
-source_file="res://Graphics/Card Art/Trotsky.jpg"
-source_md5="007bb952b6b16331813b2494bc54cc9c"
+source_file="res://Graphics/Menu/loading_screen.png"
+source_md5="a0faede834be64941e4cdab86c4ccfc9"
 
-dest_files=[ "res://.import/Trotsky.jpg-37ca264fe97d342df0b74fca7aa21e39.stex" ]
-dest_md5="ad1c6f739cc190009aa5edfd03c4132f"
+dest_files=[ "res://.import/loading_screen.png-14393d35bcf03d0a24aa1b756803ed9b.stex" ]
+dest_md5="8a133533ebaadcc284a4a17f901955e2"
 
 [params]
 

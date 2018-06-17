@@ -7,10 +7,10 @@ path="res://.import/select.png-45a45784d49733c0bfca68895670090b.stex"
 [deps]
 
 source_file="res://Graphics/Menu/select.png"
-source_md5="fdebaa446530ac678c7bda07b5043dec"
+source_md5="ff26e952eedd080b439af5f19e994e0c"
 
 dest_files=[ "res://.import/select.png-45a45784d49733c0bfca68895670090b.stex" ]
-dest_md5="2108e36878311cad10c3996badc5b6fc"
+dest_md5="e237c63df57aee1b3ee62298ee7fffc9"
 
 [params]
 

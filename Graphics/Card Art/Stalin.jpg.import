@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Stalin.jpg-af9167465ca60a92989fae92d932f8d5.stex"
+path="res://.import/Stalin.jpg-3e8b797dc1385ea0cb0e88789df76747.stex"
 
 [deps]
 
-source_file="res://Game Art/Stalin.jpg"
+source_file="res://Graphics/Card Art/Stalin.jpg"
 source_md5="f440751d15f4c6a103764ab7b888d692"
 
-dest_files=[ "res://.import/Stalin.jpg-af9167465ca60a92989fae92d932f8d5.stex" ]
+dest_files=[ "res://.import/Stalin.jpg-3e8b797dc1385ea0cb0e88789df76747.stex" ]
 dest_md5="79d8a5a686b1ff72da7ce6912dff6f0b"
 
 [params]

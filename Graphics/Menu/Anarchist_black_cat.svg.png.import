@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Trotsky.jpg-37ca264fe97d342df0b74fca7aa21e39.stex"
+path="res://.import/Anarchist_black_cat.svg.png-62ca3742a746eb6f64d2e0b9fa42ae95.stex"
 
 [deps]
 
-source_file="res://Graphics/Card Art/Trotsky.jpg"
-source_md5="007bb952b6b16331813b2494bc54cc9c"
+source_file="res://Graphics/Menu/Anarchist_black_cat.svg.png"
+source_md5=""
 
-dest_files=[ "res://.import/Trotsky.jpg-37ca264fe97d342df0b74fca7aa21e39.stex" ]
-dest_md5="ad1c6f739cc190009aa5edfd03c4132f"
+dest_files=[ "res://.import/Anarchist_black_cat.svg.png-62ca3742a746eb6f64d2e0b9fa42ae95.stex" ]
+dest_md5="5feafc03f8167075464e602965464445"
 
 [params]
 

@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Template_back.png-c668887626bdd68febbbee38039b052d.stex"
+path="res://.import/Template_back.png-0566bcef6fa5d764bc0b44bca5a99df6.stex"
 
 [deps]
 
-source_file="res://Cards/Template_back.png"
+source_file="res://Graphics/Card Art/Template_back.png"
 source_md5="1f50cc1ecea26c5d0077f48581f94b6d"
 
-dest_files=[ "res://.import/Template_back.png-c668887626bdd68febbbee38039b052d.stex" ]
+dest_files=[ "res://.import/Template_back.png-0566bcef6fa5d764bc0b44bca5a99df6.stex" ]
 dest_md5="b0663b1ad121c342ddee9de70b624b8b"
 
 [params]
