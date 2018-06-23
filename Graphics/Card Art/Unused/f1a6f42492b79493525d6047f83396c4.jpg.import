@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Castro.jpg-79da9205255090a5b6b2fd762b282d4e.stex"
+path="res://.import/f1a6f42492b79493525d6047f83396c4.jpg-6e9e766a6ea03559f0f2a4fd9d8e7b97.stex"
 
 [deps]
 
-source_file="res://Graphics/Card Art/Card Artworks/Castro.jpg"
-dest_files=[ "res://.import/Castro.jpg-79da9205255090a5b6b2fd762b282d4e.stex" ]
+source_file="res://Graphics/Card Art/Card Artworks/Unused/f1a6f42492b79493525d6047f83396c4.jpg"
+dest_files=[ "res://.import/f1a6f42492b79493525d6047f83396c4.jpg-6e9e766a6ea03559f0f2a4fd9d8e7b97.stex" ]
 
 [params]
 

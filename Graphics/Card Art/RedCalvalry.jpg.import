@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Castro.jpg-79da9205255090a5b6b2fd762b282d4e.stex"
+path="res://.import/RedCalvalry.jpg-b5c062f1bafde15ccc0f862df5d78a71.stex"
 
 [deps]
 
-source_file="res://Graphics/Card Art/Card Artworks/Castro.jpg"
-dest_files=[ "res://.import/Castro.jpg-79da9205255090a5b6b2fd762b282d4e.stex" ]
+source_file="res://Graphics/Card Art/Card Artworks/RedCalvalry.jpg"
+dest_files=[ "res://.import/RedCalvalry.jpg-b5c062f1bafde15ccc0f862df5d78a71.stex" ]
 
 [params]
 
