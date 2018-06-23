@@ -20,7 +20,7 @@
 [ext_resource path="res://Graphics/Menu/Che.png" type="Texture" id=18]
 [ext_resource path="res://Graphics/Menu/mselect.png" type="Texture" id=19]
 
-[node name="Title Screen" type="Node" index="0"]
+[node name="Title Screen" type="Node"]
 
 script = ExtResource( 1 )
 

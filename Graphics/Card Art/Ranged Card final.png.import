@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Ranged Card final.png-4cf3b26d4b12943cbca31a943554a486.stex"
+
+[deps]
+
+source_file="res://Graphics/Card Art/Ranged Card final.png"
+source_md5="5b21dcc79191a0c79dd214e303bdf156"
+
+dest_files=[ "res://.import/Ranged Card final.png-4cf3b26d4b12943cbca31a943554a486.stex" ]
+dest_md5="dfd5c8e8fc82db7bb3eea4be0262e9e3"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
