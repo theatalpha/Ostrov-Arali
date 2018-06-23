@@ -3,10 +3,10 @@ extends Node2D
 # class member variables go here, for example:
 # var a = 2
 # var b = "textvar"
-var atk = 4
-var hp = 7
-var CardName = "Trotsky"
-var CardType = "ranged"
+var atk = 2
+var hp = 9
+var CardName = "Red Artillery"
+var CardType = "melee"
 
 
 func _ready():

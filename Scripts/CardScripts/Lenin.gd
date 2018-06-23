@@ -3,8 +3,8 @@ extends Node2D
 # class member variables go here, for example:
 # var a = 2
 # var b = "textvar"
-var atk = 4
-var hp = 7
+var atk = 6
+var hp = 3
 var CardName = "Trotsky"
 var CardType = "ranged"
 

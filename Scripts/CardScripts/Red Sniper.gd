@@ -3,9 +3,9 @@ extends Node2D
 # class member variables go here, for example:
 # var a = 2
 # var b = "textvar"
-var atk = 4
-var hp = 7
-var CardName = "Trotsky"
+var atk = 8
+var hp = 2
+var CardName = "Red Sniper"
 var CardType = "ranged"
 
 
