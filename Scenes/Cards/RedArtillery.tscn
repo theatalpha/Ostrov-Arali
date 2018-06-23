@@ -1,9 +1,10 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Scripts/CardScripts/Trotsky.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/RedArtillery.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Card Art/Ranged Card final.png" type="Texture" id=2]
-[ext_resource path="res://Graphics/Card Art/Card Artworks/Trotsky.jpg" type="Texture" id=3]
+[ext_resource path="res://Graphics/Card Art/Card Artworks/RedArtillery.jpg" type="Texture" id=3]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=4]
+
 
 [sub_resource type="DynamicFontData" id=1]
 
@@ -27,7 +28,7 @@ use_filter = false
 font_data = ExtResource( 4 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
 
-[node name="TrotskyCard" type="Node2D" index="0"]
+[node name="TrotskyCard" type="Node2D"]
 
 position = Vector2( 417.561, 560.562 )
 script = ExtResource( 1 )
@@ -37,10 +38,10 @@ script = ExtResource( 1 )
 position = Vector2( -7.07324, -38.0197 )
 texture = ExtResource( 2 )
 
-[node name="CardPicture" type="Sprite" parent="." index="1"]
+[node name="RedArtillery" type="Sprite" parent="." index="1"]
 
-position = Vector2( -8.02042, -0.485229 )
-scale = Vector2( 1.04154, 1.09681 )
+position = Vector2( -7.92941, -0.894958 )
+scale = Vector2( 0.720763, 0.825034 )
 texture = ExtResource( 3 )
 
 [node name="NameDisplay" type="Label" parent="." index="2"]

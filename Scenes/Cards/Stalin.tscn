@@ -2,10 +2,8 @@
 
 [ext_resource path="res://Scripts/CardScripts/Stalin.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Card Art/Melee Card final.png" type="Texture" id=2]
-[ext_resource path="res://Graphics/Card Art/Stalin.jpg" type="Texture" id=3]
+[ext_resource path="res://Graphics/Card Art/Card Artworks/Stalin.jpg" type="Texture" id=3]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=4]
-
-
 
 [sub_resource type="DynamicFontData" id=1]
 
@@ -62,7 +60,6 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = SubResource( 2 )
-text = "Stalin"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
