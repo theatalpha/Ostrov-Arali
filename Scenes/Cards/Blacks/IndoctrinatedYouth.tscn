@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Scripts/CardScripts/Blacks/Mussolini.gd" type="Script" id=1]
-[ext_resource path="res://Graphics/Card Art/Melee Card final.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/CardScripts/Blacks/IndoctrinatedYouth.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/Card Art/Ranged Card final.png" type="Texture" id=2]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Graphics/Card Art/Card Artworks/Blacks/Mussolini.jpeg" type="Texture" id=4]
+[ext_resource path="res://Graphics/Card Art/Card Artworks/Blacks/Indoctrinated Youth.jpg" type="Texture" id=4]
 
 [sub_resource type="DynamicFontData" id=1]
 
@@ -27,15 +27,14 @@ use_filter = false
 font_data = ExtResource( 3 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
 
-[node name="MussoliniCard" type="Node2D" index="0"]
+[node name="Indoctrinated Youth" type="Node2D" index="0"]
 
 position = Vector2( 417.561, 560.562 )
-rotation = 0.00013842
 script = ExtResource( 1 )
 
 [node name="Melee Card final" type="Sprite" parent="." index="0"]
 
-position = Vector2( -7.07324, -35.8531 )
+position = Vector2( -7.07324, -37.826 )
 texture = ExtResource( 2 )
 
 [node name="NameDisplay" type="Label" parent="." index="1"]
@@ -45,9 +44,9 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = -217.0
-margin_top = -437.0
+margin_top = -441.0
 margin_right = 216.0
-margin_bottom = -337.0
+margin_bottom = -341.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -107,10 +106,10 @@ lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "Anchor", "custom_fonts" ]
 
-[node name="Mussolini" type="Sprite" parent="." index="4"]
+[node name="Indoctrinated Youth" type="Sprite" parent="." index="4"]
 
-position = Vector2( -3.68445, -12.6493 )
-scale = Vector2( 2.54141, 2.30484 )
+position = Vector2( -8.01337, -0.074585 )
+scale = Vector2( 0.508299, 0.581872 )
 texture = ExtResource( 4 )
 
 

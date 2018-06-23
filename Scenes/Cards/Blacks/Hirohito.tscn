@@ -1,11 +1,9 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Scripts/CardScripts/Reds/Red Sniper.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/CardScripts/Blacks/Hirohito.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Card Art/Ranged Card final.png" type="Texture" id=2]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Graphics/Card Art/Card Artworks/Reds/RedSniper.jpeg" type="Texture" id=4]
-
-
+[ext_resource path="res://Graphics/Card Art/Card Artworks/Blacks/download (2).jpeg" type="Texture" id=4]
 
 [sub_resource type="DynamicFontData" id=1]
 
@@ -29,7 +27,7 @@ use_filter = false
 font_data = ExtResource( 3 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
 
-[node name="TrotskyCard" type="Node2D"]
+[node name="Hirohito" type="Node2D" index="0"]
 
 position = Vector2( 417.561, 560.562 )
 script = ExtResource( 1 )
@@ -108,10 +106,10 @@ lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "Anchor", "custom_fonts" ]
 
-[node name="e166c68c3e1718d0f613d2e3017677dc" type="Sprite" parent="." index="4"]
+[node name="download (2)" type="Sprite" parent="." index="4"]
 
-position = Vector2( -7.73083, -0.244808 )
-scale = Vector2( 1.4467, 1.56771 )
+position = Vector2( -8.48165, -1.05849 )
+scale = Vector2( 2.304, 2.61485 )
 texture = ExtResource( 4 )
 
 
