@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/TrotskyFull.png-98904492347b5902c43d1a0ad8087298.stex"
+
+[deps]
+
+source_file="res://Graphics/Card Art/TrotskyFull.png"
+source_md5="fa2a01b75fc0d790caa4cca25f3d939c"
+
+dest_files=[ "res://.import/TrotskyFull.png-98904492347b5902c43d1a0ad8087298.stex" ]
+dest_md5="b366c71168e9756c5cc18826f4d8ccd6"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
