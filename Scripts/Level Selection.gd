@@ -13,9 +13,17 @@ func _ready():
 	button2.connect("pressed", self, "on_pressed2")
 
 func on_pressed(): #This is the code that allows the sprite to ove physcially instead of teleporting
-	$Tween.interpolate_property($Sprite, "position", Vector2(474,252), Vector2(895,530), 1.0, Tween.TRANS_LINEAR, Tween.EASE_OUT)
-	$Tween.start()
+	if $Sprite.position == Vector2(1420, 765):
+		$Tween.interpolate_property($Sprite, "position", Vector2(1420, 765), Vector2(865, 520), 1.0, Tween.TRANS_LINEAR, Tween.EASE_OUT)
+		$Tween.start()
+	else:
+		$Tween.interpolate_property($Sprite, "position", Vector2(270, 155), Vector2(865,520), 1.0, Tween.TRANS_LINEAR, Tween.EASE_OUT)
+		$Tween.start()
 
 func on_pressed2(): #The same as above but for the second button
-	$Tween.interpolate_property($Sprite, "position", Vector2(895,530), Vector2(1300,730), 1.0, Tween.TRANS_LINEAR, Tween.EASE_OUT)
-	$Tween.start()
+	if $Sprite.position == Vector2(270, 155):
+		$Tween.interpolate_property($Sprite, "position", Vector2(270, 155), Vector2(1420,765), 1.0, Tween.TRANS_LINEAR, Tween.EASE_OUT)
+		$Tween.start()
+	else:
+		$Tween.interpolate_property($Sprite, "position", Vector2(865,520), Vector2(1420,765), 1.0, Tween.TRANS_LINEAR, Tween.EASE_OUT)
+		$Tween.start()
