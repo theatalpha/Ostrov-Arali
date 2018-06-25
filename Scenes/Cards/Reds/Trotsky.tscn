@@ -5,8 +5,6 @@
 [ext_resource path="res://Graphics/Card Art/Card Artworks/Reds/Trotsky.jpg" type="Texture" id=3]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=4]
 
-
-
 [sub_resource type="DynamicFontData" id=1]
 
 hinting = 2

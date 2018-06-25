@@ -1,9 +1,11 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Scenes/Cards/Blacks/DespicableCommander.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/CardScripts/Blacks/DespicableCommander.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Card Art/Ranged Card final.png" type="Texture" id=2]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://Graphics/Card Art/Card Artworks/Blacks/Despicable Commander.JPG" type="Texture" id=4]
+
+
 
 [sub_resource type="DynamicFontData" id=1]
 
