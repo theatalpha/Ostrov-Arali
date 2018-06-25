@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/t44.png-ceea90578250805f4bc2020db887b8f4.stex"
+
+[deps]
+
+source_file="res://Graphics/Level Selection/t44.png"
+source_md5="d4fe8c9c2deb83e87b459262debb6431"
+
+dest_files=[ "res://.import/t44.png-ceea90578250805f4bc2020db887b8f4.stex" ]
+dest_md5="a2fa4d95c0d5edce3917ec58bcbe3c95"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

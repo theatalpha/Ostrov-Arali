@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/Level Selection.gd" type="Script" id=1]
-[ext_resource path="res://Ostrov Aralia Level Selection.png" type="Texture" id=2]
-[ext_resource path="res://t44.png" type="Texture" id=3]
+[ext_resource path="res://Background.png" type="Texture" id=2]
+[ext_resource path="res://Ostrov Aralia Level Selection.png" type="Texture" id=3]
+[ext_resource path="res://t44.png" type="Texture" id=4]
 
 [node name="Node" type="Node2D" index="0"]
 
@@ -15,11 +16,20 @@ __meta__ = {
 level1 = NodePath("Background/Level 1")
 level2 = NodePath("Background/Level 2")
 
-[node name="Background" type="Sprite" parent="." index="0"]
+[node name="Background - Back" type="Sprite" parent="." index="0"]
+
+position = Vector2( 960, 540 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Background" type="Sprite" parent="." index="1"]
 
 position = Vector2( 965.099, 540 )
 scale = Vector2( 1.7539, 1 )
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 _sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_lock_": true
@@ -73,13 +83,13 @@ group = null
 flat = false
 align = 1
 
-[node name="Sprite" type="Sprite" parent="." index="1"]
+[node name="Sprite" type="Sprite" parent="." index="2"]
 
 position = Vector2( 474, 252 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 _sections_unfolded = [ "Offset", "Transform" ]
 
-[node name="Tween" type="Tween" parent="." index="2"]
+[node name="Tween" type="Tween" parent="." index="3"]
 
 repeat = false
 playback_process_mode = 1
