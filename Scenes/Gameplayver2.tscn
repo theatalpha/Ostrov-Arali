@@ -1,14 +1,13 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scripts/Battle.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Maps/map.png" type="Texture" id=2]
-[ext_resource path="res://Melee Card final.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/Maps/map2.png" type="Texture" id=3]
 [ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://Graphics/Maps/map2.png" type="Texture" id=5]
-[ext_resource path="res://Graphics/Maps/endTurn.png" type="Texture" id=6]
-[ext_resource path="res://Graphics/Menu/FullHealth.png" type="Texture" id=7]
-[ext_resource path="res://Graphics/Card Art/Che.jpg" type="Texture" id=8]
-[ext_resource path="res://Graphics/Maps/enemyface.jpg" type="Texture" id=9]
+[ext_resource path="res://Graphics/Maps/endTurn.png" type="Texture" id=5]
+[ext_resource path="res://Graphics/Menu/FullHealth.png" type="Texture" id=6]
+[ext_resource path="res://Graphics/Card Art/Che.jpg" type="Texture" id=7]
+[ext_resource path="res://Graphics/Maps/enemyface.jpg" type="Texture" id=8]
 
 [sub_resource type="DynamicFont" id=1]
 
@@ -24,8 +23,8 @@ content_margin_left = -1.0
 content_margin_right = -1.0
 content_margin_top = -1.0
 content_margin_bottom = -1.0
-texture = ExtResource( 7 )
-normal_map = ExtResource( 7 )
+texture = ExtResource( 6 )
+normal_map = ExtResource( 6 )
 region_rect = Rect2( 0, 0, 1430, 257 )
 margin_left = 0.0
 margin_right = 0.0
@@ -198,7 +197,7 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 5 )
+texture_normal = ExtResource( 3 )
 expand = true
 _sections_unfolded = [ "Grow Direction", "Margin", "Rect", "Textures" ]
 
@@ -317,7 +316,7 @@ shortcut = null
 group = null
 texture_normal = ExtResource( 3 )
 expand = true
-_sections_unfolded = [ "Grow Direction", "Margin", "Rect" ]
+_sections_unfolded = [ "Grow Direction", "Margin", "Rect", "Textures" ]
 
 [node name="Sprite" type="TextureRect" parent="PCardCL" index="0"]
 
@@ -434,7 +433,7 @@ shortcut = null
 group = null
 texture_normal = ExtResource( 3 )
 expand = true
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Textures" ]
 
 [node name="Health" type="Label" parent="PCardCR" index="0"]
 
@@ -552,7 +551,7 @@ shortcut = null
 group = null
 texture_normal = ExtResource( 3 )
 expand = true
-_sections_unfolded = [ "Grow Direction", "Margin", "Rect" ]
+_sections_unfolded = [ "Grow Direction", "Margin", "Rect", "Textures" ]
 
 [node name="Name" type="Label" parent="PCardLL" index="0"]
 
@@ -670,7 +669,7 @@ shortcut = null
 group = null
 texture_normal = ExtResource( 3 )
 expand = true
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Textures" ]
 
 [node name="Attack" type="Label" parent="PCardLR" index="0"]
 
@@ -1489,7 +1488,7 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 6 )
+texture_normal = ExtResource( 5 )
 expand = true
 stretch_mode = 5
 _sections_unfolded = [ "Margin", "Textures" ]
@@ -1515,7 +1514,6 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
 expand = true
 _sections_unfolded = [ "Focus", "Grow Direction", "Hint", "Margin", "Material", "Mouse", "Rect", "Textures", "Visibility" ]
 
@@ -1633,7 +1631,6 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
 expand = true
 _sections_unfolded = [ "Margin", "Textures" ]
 
@@ -1751,7 +1748,6 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
 expand = true
 _sections_unfolded = [ "Margin", "Textures" ]
 
@@ -1869,7 +1865,6 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
 expand = true
 _sections_unfolded = [ "Margin", "Textures" ]
 
@@ -1987,7 +1982,6 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
 expand = true
 _sections_unfolded = [ "Margin", "Textures" ]
 
@@ -2126,7 +2120,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 8 )
+texture = ExtResource( 7 )
 expand = true
 stretch_mode = 0
 
@@ -2175,7 +2169,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 expand = true
 stretch_mode = 0
 _sections_unfolded = [ "Rect" ]
