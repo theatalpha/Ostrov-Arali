@@ -1,0 +1,132 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Tutorial.gd" type="Script" id=1]
+[ext_resource path="res://Music/Internationale 8 bit.ogg" type="AudioStream" id=2]
+[ext_resource path="res://Graphics/Menu/menu_background.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/Menu/title.png" type="Texture" id=4]
+[ext_resource path="res://Fonts/ariblk.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://Graphics/Menu/back.png" type="Texture" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 32
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 5 )
+_sections_unfolded = [ "Font", "Resource", "Settings" ]
+
+[node name="Title Screen" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="Internationale" type="AudioStreamPlayer" parent="." index="0"]
+
+stream = ExtResource( 2 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Background" type="TextureRect" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -2.0
+margin_bottom = -2.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+expand = true
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Hint" ]
+
+[node name="Title" type="TextureRect" parent="." index="2"]
+
+anchor_left = 0.5
+anchor_top = 0.0
+anchor_right = 0.5
+anchor_bottom = 0.0
+margin_left = -510.0
+margin_top = 20.0
+margin_right = 510.0
+margin_bottom = 200.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 6
+_sections_unfolded = [ "Margin", "Size Flags" ]
+
+[node name="Text" type="Label" parent="." index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 50.0
+margin_top = 244.0
+margin_right = 1789.0
+margin_bottom = 878.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+text = "To Play Ostrov Aralia the player must position their cards onto their board by clicking the card
+ in their hand they wish to play and then clicking the spot they wish you to play it on on their side
+ of the board (the 6 slots on the left side of the board).
+
+Ostrov Arali uses a unique lane system. The player's characters as well as the enemies character's
+ will only attack the character in the front line on the opposite side of their board. This adds a new 
+dimension of stratefy to Ostrov Arali requiring you to plan out your battlefield.
+
+When you press the end turn button in the bottom left corner of your screen, your turn will end, 
+your minions will automatically attack the enemy in the front most line opposite to your character.
+ If there is no character, you will attack your opponent directly.
+
+Once you or your opponent's health reaches 0, said player loses the game. Good luck and have fun."
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="BackButton" type="TextureButton" parent="." index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 1606.0
+margin_top = 912.0
+margin_right = 1822.0
+margin_bottom = 1062.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 6 )
+_sections_unfolded = [ "Textures" ]
+
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]
+
+
