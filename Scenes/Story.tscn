@@ -1,0 +1,114 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Title.gd" type="Script" id=1]
+[ext_resource path="res://Music/Internationale 8 bit.ogg" type="AudioStream" id=2]
+[ext_resource path="res://Graphics/StoryImage.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/Menu/back.png" type="Texture" id=4]
+[ext_resource path="res://Scripts/ExitGame.gd" type="Script" id=5]
+
+[sub_resource type="DynamicFontData" id=1]
+
+hinting = 2
+font_path = "res://Fonts/ariblk.ttf"
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 50
+use_mipmaps = false
+use_filter = false
+font_data = SubResource( 1 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
+
+[node name="Title Screen" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="Internationale" type="AudioStreamPlayer" parent="." index="0"]
+
+stream = ExtResource( 2 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Background" type="TextureRect" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+expand = true
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Hint" ]
+
+[node name="Story" type="Label" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 315.0
+margin_top = 163.0
+margin_right = 1879.0
+margin_bottom = 872.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+text = "Welcome to Ostrov Arali, a world torn 
+apart through years of war and dictatorial rule. 
+You brave hero have been chosen to lead
+the revolution and maybe give this world
+ a much needed chance at a peacful society
+ void of hierarchy and authoritarian rule.
+ In this world broken by fascists, you may be 
+this worlds last hope at redemption."
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="MBack" type="TextureButton" parent="." index="3"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -147.0
+margin_top = 313.0
+margin_right = 173.0
+margin_bottom = 403.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 4 )
+expand = true
+stretch_mode = 5
+script = ExtResource( 5 )
+_sections_unfolded = [ "Anchor", "Margin", "Textures" ]
+
+[connection signal="mouse_entered" from="MBack" to="." method="_on_ExitGame_mouse_entered"]
+
+[connection signal="pressed" from="MBack" to="." method="_on_MBack_pressed"]
+
+
