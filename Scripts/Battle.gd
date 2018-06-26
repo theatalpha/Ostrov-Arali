@@ -98,9 +98,16 @@ func enemyDeck():
 ###Gets a random entry from the decklist which is then called as a function
 func _on_End_Turn_pressed():
 	playerAttack()
+	if get_node("EnemyPlayerHealth").value <= 0:
+		get_tree().change_scene("res://Scenes/Victory Screen.tscn")
+	else:
+		pass
 	cardsPlayed = 0
 	enemyTurn()
-
+	if get_node("PlayerHealth").value <= 0:
+		get_tree().change_scene("res://Scenes/Defeat Screen.tscn")
+	else:
+		pass
 
 
 func enemyTurn():
