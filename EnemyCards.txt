@@ -1,0 +1,15 @@
+FieldMarshal
+Brigade
+Shirts
+Bomber
+Conscript
+DespicableCommander
+Franco
+Giovanni
+Hirohito
+Youth
+Mussolini
+Mosley
+Dictator
+King
+TyrantCommander
