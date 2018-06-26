@@ -5,7 +5,7 @@ extends Node2D
 # var b = "textvar"
 var atk = 6
 var hp = 6
-var CardName = "Black Field Marshall"
+var CardName = "Black Brigade"
 var CardType = "melee"
 
 
