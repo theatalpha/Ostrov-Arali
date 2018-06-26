@@ -1,0 +1,84 @@
+cardName = 'Black Field Marshal"
+    cardAttack = 6
+    cardHealth = 6
+    cardClass = "Melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Black Field Marshal.jpeg")
+    enemyPlacementChoice()
+cardName = "Common Conscript"
+    cardAttack = 4
+    cardHealth = 7
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Black Soldier.jpg")
+    enemyPlacementChoice()
+cardName = "Black Brigade"
+    cardAttack = 6
+    cardHealth = 7
+    cardClass = "melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/BlackBrigade.jpg")
+    enemyPlacementChoice()
+cardName = "Bomber Pilot"
+    cardAttack = 6
+    cardHealth = 9
+    cardClass = "melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Bomber Pilot.jpg")
+    enemyPlacementChoice()
+cardName = "Black Shirts"
+    cardAttack = 6
+    cardHealth = 8
+    cardClass = "melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Black Shirts.jpg")
+    enemyPlacementChoice()
+cardName = "Despicable Commander"
+    cardAttack = 3
+    cardHealth = 10
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Despicable Commander.jpg")
+    enemyPlacementChoice()
+cardName = "Franco"
+    cardAttack = 5
+    cardHealth = 12
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Franco.png")
+    enemyPlacementChoice()
+cardName = "Giovanni Gentile"
+    cardAttack = 8
+    cardHealth = 6
+    cardClass = "melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/GiovanniGentile.jpg")
+    enemyPlacementChoice()
+cardName = "Hirohito"
+    cardAttack = 4
+    cardHealth = 10
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Hirohito.jpeg")
+    enemyPlacementChoice()
+cardName = "Mussolini"
+    cardAttack = 6
+    cardHealth = 9
+    cardClass = "melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Mussolini.jpeg")
+    enemyPlacementChoice()
+cardName = "Oswald Mosley"
+    cardAttack = 5
+    cardHealth = 8
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Mosley.jpg")
+    enemyPlacementChoice()
+cardName = "Rallying Dictator"
+    cardAttack = 8
+    cardHealth = 4
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Rallying_Dictator.PNG")
+    enemyPlacementChoice()
+cardName = "The Black King"
+    cardAttack = 1
+    cardHealth = 15
+    cardClass = "ranged"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/The Black King.jpg")
+    enemyPlacementChoice()
+cardName = "Tyrant Commander"
+    cardAttack = 7
+    cardHealth = 5
+    cardClass = "melee"
+    cardSprite = load("res://Graphics/Card Art/Card Artworks/Blacks/Black Commander.jpg")
+    enemyPlacementChoice()
